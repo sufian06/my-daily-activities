@@ -5,3 +5,13 @@
 .layout-left {
   background-color: #f2f4fa;
 }
+@media only screen and (max-width: 992px) {
+  .layout {
+    /* grid-template-columns: 1fr; */
+    display: flex;
+    flex-direction: column;
+  }
+  .layout-right {
+    margin-left: 2.5%;
+  }
+}
