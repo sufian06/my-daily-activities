@@ -1,17 +1,30 @@
 .activity {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   border-radius: 4px;
+  background-color: white;
 }
 .activity img {
-  width: 350px;
+  width: 332px;
   height: 280px;
   object-fit: cover;
-  margin: 6px;
-  border-radius: 3px;
+  margin: 15px;
+  border-radius: 4px;
+  margin-bottom: 0;
 }
 .activity-text {
-  margin-left: 15px;
+  padding: 15px;
   margin-bottom: 15px;
+}
+.activity-text h4 {
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.activity-text p {
+  margin-top: 7px;
+}
+.activity-text p > small {
+  font-weight: bold;
 }
 .list-btn {
   background-color: lightblue;
@@ -24,5 +37,5 @@
   transition: 0.3s;
 }
 .list-btn:hover {
-  background-color: rgb(96, 164, 187);
+  background-color: rgb(107, 184, 209);
 }
