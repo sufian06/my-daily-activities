@@ -1,0 +1,28 @@
+.activity {
+  border: 1px solid red;
+  border-radius: 4px;
+}
+.activity img {
+  width: 350px;
+  height: 280px;
+  object-fit: cover;
+  margin: 6px;
+  border-radius: 3px;
+}
+.activity-text {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.list-btn {
+  background-color: lightblue;
+  border: none;
+  padding: 7px 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.list-btn:hover {
+  background-color: rgb(96, 164, 187);
+}

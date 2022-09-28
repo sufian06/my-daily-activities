@@ -1,0 +1,6 @@
+.activity-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 2rem;
+}
