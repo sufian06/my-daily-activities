@@ -44,7 +44,7 @@
   transition: 0.3s;
 }
 .activity-btn:hover {
-  background-color: rgb(88, 202, 88);
+  background-color: #58ca58;
 }
 /* responsive */
 @media only screen and (max-width: 992px) {

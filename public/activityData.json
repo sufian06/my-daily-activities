@@ -9,19 +9,41 @@
   },
   {
     "id": 2,
-    "name": "Get Ready for Office",
-    "durationTime": 50,
-    "price": 420,
-    "ratingsCount": 3725,
-    "img": "https://images.unsplash.com/photo-1614631446449-e2c7a0cc1428?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGJhdGh8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'"
+    "name": "Go to Office",
+    "durationTime": 20,
+    "img": "https://media.istockphoto.com/photos/biker-riding-in-jean-is-holding-a-helmet-and-motorcycle-blur-picture-id1156610253?b=1&k=20&m=1156610253&s=170667a&w=0&h=OgEaeg6bNHSVQAm6Puygrvk1Z5VpFyM3ZJCTt_CDuvE=",
+    "description": "I start to go office with my honda cb Trigger. I start journey at 8.30 am. Some of time there is huge traffic jam on the road that's why I start journey early from the office starting time"
   },
   {
     "id": 3,
+    "name": "Get Ready for Office works",
+    "durationTime": 10,
+    "img": "https://images.unsplash.com/photo-1584378834141-a7e026d31456?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FzaCUyMG1vdXRofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "description": "when I reach the office then I take some rest and take a cup to tea for the refreshment. Some of time we discution to each  other about the setuation around of us."
+  },
+  {
+    "id": 4,
+    "name": "Communicating to Client",
+    "durationTime": 120,
+    "img": "https://images.unsplash.com/photo-1558731991-cb3430a08bb7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBob25lJTIwY2FsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "description": "Then I start my regular duties. At first I make some phone call to the clients. My duty is collect money to the defolder customers. In the conversion I try to make a payment date of those clients."
+  },
+  {
+    "id": 5,
     "name": "Get Ready for Office",
     "durationTime": 50,
     "price": 420,
     "ratingsCount": 3725,
-    "img": "https://images.unsplash.com/photo-1614631446449-e2c7a0cc1428?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGJhdGh8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+    "img": "https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVldGluZyUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "description": "It is a age when looking at its layout. The point of using Lorem Ipsum is that it has long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'"
+  },
+  {
+    "id": 6,
+    "name": "Get Ready for Office",
+    "durationTime": 50,
+    "price": 420,
+    "ratingsCount": 3725,
+    "img": "https://images.unsplash.com/photo-1560328055-e938bb2ed50a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c29uJTIwYW5kJTIwZmF0aGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a pa more-or-less normal distribution of letters, as opposed to using 'Content here, content here'"
   }
 ]

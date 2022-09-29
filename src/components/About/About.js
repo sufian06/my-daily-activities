@@ -16,7 +16,7 @@ const About = () => {
             <div className="about-details">
                 <div className="about-details-single">
                     <h2>Company</h2>
-                    <p>Nerolac</p>
+                    <p>Nerolac Paints Ltd</p>
                 </div>
                 <div className="about-details-single">
                     <h2>Position</h2>
