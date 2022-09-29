@@ -23,7 +23,29 @@
   display: flex;
   justify-content: space-evenly;
 }
-
+.break h4,
+.break p {
+  margin: 0;
+}
+.break p {
+  font-weight: bold;
+}
+.activity-btn {
+  margin-top: 2rem;
+  background-color: lightblue;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 15px 15px;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.activity-btn:hover {
+  background-color: rgb(88, 202, 88);
+}
 /* responsive */
 @media only screen and (max-width: 992px) {
   .layout {

@@ -27,6 +27,7 @@ const Layout = () => {
       </div>
       <div className="layout-right">
         <About></About>
+        {/* break area */}
         <div className="break-container">
             <h2>Add a Break</h2>
           <div className="break">
@@ -38,6 +39,20 @@ const Layout = () => {
           ))}
           </div>
         </div>
+        {/* break end */}
+        {/* duration details */}
+        <div className="duration-details">
+            <h2>Duration Details</h2>
+            <div className="break">
+                <h4>Work Time</h4>
+                <p>2000 s</p>
+            </div>
+            <div className="break">
+                <h4>Break Time</h4>
+                <p>20 s</p>
+            </div>
+        </div>
+        <button className="activity-btn">Activity Completed</button>
       </div>
     </div>
   );
