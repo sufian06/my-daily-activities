@@ -1,3 +1,7 @@
+.nav {
+  display: flex;
+  align-items: center;
+}
 .icon {
   color: #58ca58;
   margin-right: 15px;

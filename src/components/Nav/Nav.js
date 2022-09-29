@@ -7,10 +7,9 @@ import "./Nav.css";
 const Nav = () => {
   return (
     <div>
-      <nav>
-       
-        <h4 className="logo">
-          <FontAwesomeIcon className='icon' icon={faSnowboarding} />
+      <nav className='nav'>
+      <FontAwesomeIcon className='icon' icon={faSnowboarding} />     
+        <h4>          
           My Daily Activities
         </h4>
       </nav>

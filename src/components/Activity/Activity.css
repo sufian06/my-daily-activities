@@ -43,3 +43,14 @@
   /* background-color: rgb(107, 184, 209); */
   background-color: rgb(88, 202, 88);
 }
+
+@media only screen and (max-width: 768px) {
+  .activity img {
+    width: 95%;
+    height: 280px;
+    object-fit: cover;
+    margin: 15px;
+    border-radius: 4px;
+    margin-bottom: 0;
+  }
+}
