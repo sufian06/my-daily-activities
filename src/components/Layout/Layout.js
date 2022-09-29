@@ -7,7 +7,8 @@ import "./Layout.css";
 const Layout = () => {
   const [activities, setActivities] = useState([]);
   const [breaks, setBreaks] = useState([]);
-  const [workTime, setWorkTime] = useState(0)
+  const [workTime, setWorkTime] = useState(0);
+  const [breakTime, setBreakTime] = useState(0);
 
   useEffect(() => {
     fetch("activityData.json")
@@ -22,9 +23,12 @@ const Layout = () => {
   }, [breaks]);
 
   const handleAddToList = (activity) => {
-    setWorkTime(activity)
+    setWorkTime((prevActivity) => prevActivity + activity);
   };
 
+  const handleBreakTime = (time) => {
+    setBreakTime(time);
+  };
 
   return (
     <div className="layout">
@@ -41,6 +45,7 @@ const Layout = () => {
               <SingleBreak
                 key={singleBreak.id}
                 time={singleBreak.duration}
+                handleBreakTime={handleBreakTime}
               ></SingleBreak>
             ))}
           </div>
@@ -55,7 +60,7 @@ const Layout = () => {
           </div>
           <div className="break">
             <h4>Break Time</h4>
-            <p>20 Minutes</p>
+            <p>{breakTime} Minutes</p>
           </div>
         </div>
         <button className="activity-btn">Activity Completed</button>

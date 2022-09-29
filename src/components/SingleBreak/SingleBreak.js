@@ -1,10 +1,10 @@
 import React from 'react';
 import './SingleBreak.css';
 
-const SingleBreak = (props) => {
+const SingleBreak = ({time, handleBreakTime}) => {
     return (
         <div className='singleBreak'>
-            <button>{props.time}m</button>
+            <button onClick={() => handleBreakTime(time)}>{time}m</button>
         </div>
     );
 };
