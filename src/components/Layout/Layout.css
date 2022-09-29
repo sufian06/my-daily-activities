@@ -5,13 +5,33 @@
 .layout-left {
   background-color: #f2f4fa;
 }
+.layout-right {
+  margin: 45px;
+}
+.break-container {
+  margin-top: 2rem;
+}
+.break-container h2 {
+  margin-bottom: 0;
+}
+.break {
+  background-color: #f2f4fa;
+  margin-top: 1rem;
+  padding: 20px 10px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* responsive */
 @media only screen and (max-width: 992px) {
   .layout {
     /* grid-template-columns: 1fr; */
     display: flex;
     flex-direction: column;
   }
-  .layout-right {
+  /* .layout-right {
     margin-left: 2.5%;
-  }
+  } */
 }

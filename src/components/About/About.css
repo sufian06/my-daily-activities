@@ -1,0 +1,38 @@
+.img-name {
+  display: flex;
+  align-items: center;
+}
+.img-name img {
+  width: 80px;
+  height: 70px;
+  border-radius: 8px;
+  border: 1px solid #cacbcf;
+  padding: 4px;
+}
+.img-name-text {
+  margin-left: 1rem;
+}
+.img-name-text h3,
+.img-name-text p {
+  margin: 0;
+}
+.img-name-text h3 {
+  font-size: 1.25rem;
+  margin-bottom: 6px;
+}
+.about-details {
+  background-color: #f2f4fa;
+  margin-top: 2rem;
+  padding: 20px 10px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.about-details-single h2 {
+  font-size: 18px;
+}
+.about-details-single h2,
+.about-details-single p {
+  margin: 0;
+}

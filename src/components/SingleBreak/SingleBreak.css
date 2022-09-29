@@ -1,0 +1,18 @@
+.singleBreak button {
+  background-color: white;
+  border: none;
+  font-size: 1.25rem;
+  line-height: 120%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.singleBreak button:hover {
+  background-color: rgb(88, 202, 88);
+}
+.singleBreak button:active {
+  background-color: lightblue;
+}

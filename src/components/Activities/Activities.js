@@ -1,15 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Activity from '../Activity/Activity';
 import './Activities.css';
 
-const Activities = () => {
-    const [activities, setActivities] = useState([]);
-
-    useEffect(() => {
-        fetch('activityData.json')
-        .then(res => res.json())
-        .then(data => setActivities(data))
-    }, [])
+const Activities = ({activities}) => {
+    
     return (
         <div>
             <h2>Select Today's Activity: {activities.length}</h2>
