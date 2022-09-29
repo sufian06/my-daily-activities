@@ -2,6 +2,7 @@
   /* border: 1px solid red; */
   border-radius: 4px;
   background-color: white;
+  position: relative;
 }
 .activity img {
   width: 332px;
@@ -13,7 +14,7 @@
 }
 .activity-text {
   padding: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 45px;
 }
 .activity-text h4 {
   font-size: 1.25rem;
@@ -35,6 +36,8 @@
   border-radius: 4px;
   cursor: pointer;
   transition: 0.3s;
+  position: absolute;
+  bottom: 20px;
 }
 .list-btn:hover {
   /* background-color: rgb(107, 184, 209); */

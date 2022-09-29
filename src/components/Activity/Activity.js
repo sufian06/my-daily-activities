@@ -16,6 +16,7 @@ const Activity = (props) => {
                 <p><small>Duration Time: {durationTime} minutes</small></p>
                 <button onClick={() =>handleAddToList(durationTime)} className='list-btn'>Add to List</button>
             </div>
+            
         </div>
     );
 };
