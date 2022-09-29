@@ -7,3 +7,8 @@
     width: 95%;
   }
 }
+@media only screen and (max-width: 1560px) {
+  .home {
+    width: 95%;
+  }
+}
