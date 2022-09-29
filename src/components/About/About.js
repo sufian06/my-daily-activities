@@ -10,7 +10,7 @@ const About = () => {
                 <img src={authorImage} alt="" />
                 <div className="img-name-text">
                     <h3>Abu Sufian</h3>
-                    <p><FontAwesomeIcon icon={faLocationDot} /> Tongi, Gazipur</p>
+                    <p><FontAwesomeIcon icon={faLocationDot} /> Rak Tower, Uttara, Dhaka</p>
                 </div>
             </div>
             <div className="about-details">

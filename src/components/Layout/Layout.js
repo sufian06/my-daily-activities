@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import About from "../About/About";
 import FAQ from "../FAQ/FAQ";
 import Home from "../Home/Home";
@@ -10,6 +12,10 @@ const Layout = () => {
   const [breaks, setBreaks] = useState([]);
   const [workTime, setWorkTime] = useState(0);
   const [breakTime, setBreakTime] = useState(0);
+
+  const notify = () => toast.success("Wow, your activities completed !", {
+    position: "top-center"
+  });
 
   useEffect(() => {
     fetch("activityData.json")
@@ -23,13 +29,24 @@ const Layout = () => {
       .then((data) => setBreaks(data));
   }, [breaks]);
 
+  
+
   const handleAddToList = (activity) => {
     setWorkTime((prevActivity) => prevActivity + activity);
   };
-
+  
   const handleBreakTime = (time) => {
     setBreakTime(time);
+
+    localStorage.setItem('storedBreakTime', JSON.stringify(time));
+    
   };
+
+  useEffect(()=>{
+    const getStoredTime = localStorage.getItem('storedBreakTime');
+    // setBreakTime(JSON.parse(getStoredTime));
+    setBreakTime(JSON.parse(getStoredTime))
+  }, [])
 
   return (
     <div>
@@ -68,9 +85,11 @@ const Layout = () => {
               <p>{breakTime} Minutes</p>
             </div>
           </div>
-          <button className="activity-btn">Activity Completed</button>
+          <button onClick={notify} className="activity-btn">Activity Completed</button>
+          {/* <ToastContainer /> */}
         </div>
       </div>
+      <ToastContainer />
       <FAQ></FAQ>
     </div>
   );
