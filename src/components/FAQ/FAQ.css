@@ -1,0 +1,22 @@
+.faq-container {
+  background-color: white;
+}
+.faq {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.single-faq {
+  padding-bottom: 1rem;
+}
+.single-faq h3 {
+  margin: 0;
+  margin-bottom: 5px;
+}
+.single-faq p {
+  margin: 0;
+}
+.single-faq p span {
+  font-weight: bold;
+  margin-right: 10px;
+}
